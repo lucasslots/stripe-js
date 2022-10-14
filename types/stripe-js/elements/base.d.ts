@@ -15,11 +15,6 @@ export type StripeElementBase = {
   mount(domElement: string | HTMLElement): void;
 
   /**
-   * Blurs the element.
-   */
-  blur(): void;
-
-  /**
    * Clears the value(s) of the element.
    */
   clear(): void;
@@ -29,11 +24,6 @@ export type StripeElementBase = {
    * A destroyed element can not be re-activated or re-mounted to the DOM.
    */
   destroy(): void;
-
-  /**
-   * Focuses the element.
-   */
-  focus(): void;
 
   /**
    * Unmounts the element from the DOM.
